@@ -5,3 +5,7 @@ website_icositer/website_icositer/__pycache__
 
 # Django Migration ???
 website_icositer/website_app/migrations
+
+# Env
+.env
+
