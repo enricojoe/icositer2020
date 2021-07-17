@@ -1,0 +1,11 @@
+# Django
+website_icositer/db.sqlite3
+website_icositer/website_app/__pycache__
+website_icositer/website_icositer/__pycache__
+
+# Django Migration ???
+website_icositer/website_app/migrations
+
+# Env
+.env
+
