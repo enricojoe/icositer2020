@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
 <body>
+  <div class="main-wrapper">
   {% block isi %}
     <!-- main-info -->
     
-    </div>
     <div class="deskripsi">
       <div class="sidebarsatu">
           <h1>ICoSITeR 2021</h1><br>
@@ -170,31 +170,138 @@
 
 
        <!--SPEAKERS-->
-       <div class="speakers-wrapper"  id="speakersection">
+      <div class="speakers-wrapper"  id="speakersection">
         <div class="speakers-content">
           <div class="speakers-description text-white" >
             <h1 class="vertical">Speakers</h1>
           </div>
           <div class="speakers-image d-flex justify-content-center mx-auto my-auto"  >
             <div class="speaker-image">
-              <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
+              <a href="#popup" class="popup-link">
+                <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
+              </a>
+              <div class="popup-wrapper" id="popup">
+                <div class="popup-container">
+                  <div class="row">
+                    <div class="col-md-6 ">
+                      <img class="d-block w-100 h-50" src="../../static/home/asset/Speaker/1.jpg">
+                      <br>
+                      1. Chris Evan (Steve Roger a.k.a Captain America)
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <p>
+                        Aktor berkarisma, Chris Evan kabarnya pernah menolak peran Captain America beberapa kali. Menurutnya, keputusan menyetujui kontrak dalam jangka waktu panjang adalah sebuah keputusan besar. Ketika memainkan perannya, 
+                        Chris juga kehilangan berat badan sekitar 3 kg dan mengalami migren karena kostum Captain America yang ia kenakan. Selain itu, sang kapten sering mengikuti dan mendukung badan kegiatan amal seperti Breast Cancer Care. 
+                      </p>
+                    </div>
+                  </div>
+                  <a class="popup-close" href="#closed">X</a>
+                </div>
+              </div>
             </div>
             <div class="speaker-image">
-              <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
+              <a href="#popup2" class="popup-link">
+                <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
+              </a>
+              <div class="popup-wrapper" id="popup2">
+                <div class="popup-container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="d-block w-100 h-50" src="../../static/home/asset/Speaker/2.jpg">
+                      <br>
+                      <h5>1. Chris Evan (Steve Roger a.k.a Captain America)</h5>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <p>
+                        Aktor berkarisma, Chris Evan kabarnya pernah menolak peran Captain America beberapa kali. Menurutnya, keputusan menyetujui kontrak dalam jangka waktu panjang adalah sebuah keputusan besar. Ketika memainkan perannya, 
+                        Chris juga kehilangan berat badan sekitar 3 kg dan mengalami migren karena kostum Captain America yang ia kenakan. Selain itu, sang kapten sering mengikuti dan mendukung badan kegiatan amal seperti Breast Cancer Care. 
+                        </p>
+                    </div>
+                  </div>
+                  <a class="popup-close" href="#closed">X</a>
+                </div>
+              </div>
             </div>
             <div class="speaker-image">
-              <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
-          </div>
-          <div class="speaker-image">
-            <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
-          </div>
-          <div class="speaker-image">
-            <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
-          </div>
+              <a href="#popup3" class="popup-link">
+                <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
+              </a>
+              <div class="popup-wrapper" id="popup3">
+                <div class="popup-container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="d-block w-100 h-50" src="../../static/home/asset/Speaker/3.jpg">
+                      <br>
+                      <h5>1. Chris Evan (Steve Roger a.k.a Captain America)</h5>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <p>
+                        Aktor berkarisma, Chris Evan kabarnya pernah menolak peran Captain America beberapa kali. Menurutnya, keputusan menyetujui kontrak dalam jangka waktu panjang adalah sebuah keputusan besar. Ketika memainkan perannya, 
+                        Chris juga kehilangan berat badan sekitar 3 kg dan mengalami migren karena kostum Captain America yang ia kenakan. Selain itu, sang kapten sering mengikuti dan mendukung badan kegiatan amal seperti Breast Cancer Care. 
+                        </p>
+                    </div>
+                  </div>
+                  <a class="popup-close" href="#closed">X</a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-image">
+              <a href="#popup4" class="popup-link">
+                <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
+              </a>
+              <div class="popup-wrapper" id="popup4">
+                <div class="popup-container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="d-block w-100 h-50" src="../../static/home/asset/Speaker/4.jpg">
+                      <br>
+                      <h5>1. Chris Evan (Steve Roger a.k.a Captain America)</h5>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <p>
+                        Aktor berkarisma, Chris Evan kabarnya pernah menolak peran Captain America beberapa kali. Menurutnya, keputusan menyetujui kontrak dalam jangka waktu panjang adalah sebuah keputusan besar. Ketika memainkan perannya, 
+                        Chris juga kehilangan berat badan sekitar 3 kg dan mengalami migren karena kostum Captain America yang ia kenakan. Selain itu, sang kapten sering mengikuti dan mendukung badan kegiatan amal seperti Breast Cancer Care. 
+                        </p>
+                    </div>
+                  </div>
+                  <a class="popup-close" href="#closed">X</a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-image">
+              <a href="#popup5" class="popup-link">
+                <img src="https://images.unsplash.com/photo-1536407825746-05af2cc212e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/>
+              </a>
+              <div class="popup-wrapper" id="popup5">
+                <div class="popup-container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="d-block w-100 h-50" src="../../static/home/asset/Speaker/5.jpeg">
+                      <br>
+                      <h5>1. Chris Evan (Steve Roger a.k.a Captain America)</h5>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <p>
+                        Aktor berkarisma, Chris Evan kabarnya pernah menolak peran Captain America beberapa kali. Menurutnya, keputusan menyetujui kontrak dalam jangka waktu panjang adalah sebuah keputusan besar. Ketika memainkan perannya, 
+                        Chris juga kehilangan berat badan sekitar 3 kg dan mengalami migren karena kostum Captain America yang ia kenakan. Selain itu, sang kapten sering mengikuti dan mendukung badan kegiatan amal seperti Breast Cancer Care. 
+                        </p>
+                    </div>
+                  </div>
+                  <a class="popup-close" href="#closed">X</a>
+                </div>
+              </div>
+            </div>
+            
         </div>
       </div>
-    </div>
+
     <!--SPEAKERS-->
+
 
     <div class="linews">
       <div class="linenews1"></div>
@@ -251,6 +358,7 @@
     </div>
 
 
+
   <div class="webicostahunlalu">
   <div class="garisrecent">
       <div class="recentleft">
@@ -287,112 +395,18 @@
         <div class="des">ICoSITeR | 2018</div>
       </div>
     </div>
-  </div>  
 
-  <div class="line">
-    <div class="line3"></div>
-    <div class="line3"></div>
-    <div class="line3"></div>
-    <div class="line3"></div>
-    <div class="line3"></div>
+    <div class="line">
+      <div class="line3"></div>
+      <div class="line3"></div>
+      <div class="line3"></div>
+      <div class="line3"></div>
+      <div class="line3"></div>
+    </div>
   </div>
 
-<script>
-//dekalarsi
-    var totalItems = $('.beritaitem').length;
-    var currentIndex = $('div.beritaitem.active').index() + 1;
-    var time = 5000;
-    var play = true;
-    var reset = false;
 
-    var berita1 = "A press on a button translates all images in the respective direction along the x-axis. An image on the edge, is set transparent outerImg.style.opacity = '0'; and translated to the other side. You can add or remove image elements in HTML and it still works.";
-    var berita2 = "This is only for getting your data models into JS. For manipulating them, you should create some views that will get called from JS (by AJAX). They should probably return JSON. Check out http://djangosnippets.org/snippets/622/ or http://djangosnippets.org/snippets/2102/ on how to simply return only JSON from a view.";
-    var berita3 = "berita3";
-
-    $('#beritateks').html(berita1);
-
-
-    //menganti berita untuk + 1
-    function changenews(){
-      currentIndex = $('div.beritaitem.active').index() +  1;
-      if (currentIndex == 1){
-          $('#beritateks').html(berita2);
-      }
-      else if (currentIndex == 2){
-          $('#beritateks').html(berita3);
-      }
-      else {
-         $('#beritateks').html(berita1);
-      }
-    }
-
-    //mengganti berita untuk -1
-    function minusnews(){
-      currentIndex = $('div.beritaitem.active').index() - 1;
-      if (currentIndex == 1){
-        $('#beritateks').html(berita2);
-      }
-      else if (currentIndex == -1){
-        $('#beritateks').html(berita3);
-      }
-      else {
-        $('#beritateks').html(berita1);
-      }
-    }
-       
-    //fungsi timer
-    function Timer(fn, t) {
-    var timerObj = setInterval(fn, t);
-
-    //stop
-    this.stop = function() {
-        if (timerObj) {
-            clearInterval(timerObj);
-            timerObj = null;
-        }
-        return this;
-    }
-
-    // saat mulai
-    this.start = function() {
-        if (!timerObj) {
-            this.stop();
-            timerObj = setInterval(fn, t);
-        }
-        return this;
-    }
-
-    //  reset
-    this.reset = function(newT = t) {
-        t = newT;
-        return this.stop().start();
-    }
-    }
-
-    //saat pointer tidak pada caraousel
-    function jalankan(){
-      timer.reset(5000);
-    }
-
-    //saat pointer pada cararousel
-    function berhenti(){
-      timer.stop();
-    }
-
-    var timer = new Timer(function() {
-      changenews();
-      timer.reset(5000);
-    }, 5000);
- 
-    $(".next").click(function(){
-      changenews();
-      timer.reset(5000);
-    });
-
-    $(".prev").click(function(){
-      minusnews();
-      timer.reset(5000);
-    });
-</script>
+  <!-- JS Script -->
+  <script src="{% static 'home/js/custom.js' %}"></script>
 {% endblock isi %}
 </body>
