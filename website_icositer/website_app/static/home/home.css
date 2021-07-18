@@ -249,8 +249,8 @@ body{
     padding: 20px;
 }
 .sidebarsatu{
-    margin-left: 7%;
-    flex: 2.7;
+    margin-left: 6%;
+    flex: 3;
     margin-top: -10px;
     text-align: center;
 }
@@ -644,7 +644,7 @@ h2{
 .recent{
     border-radius: 100px;
     width: 400px;
-    margin: 1% auto 10%;
+    margin: 1% auto 6%;
     text-align: center;
     background-color: #FF0411;
 }
