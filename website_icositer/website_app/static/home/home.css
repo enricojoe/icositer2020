@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .nav-item .home{
     text-decoration: underline;
 }
@@ -7,15 +6,6 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: calc(10px + 3vw);
-=======
-p{
-
-}
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 65px;
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
     color: white;
     text-align: center;
 }
@@ -174,17 +164,7 @@ h1{
 .sidebarsatu h1{
     color: white;
     text-align: left;
-<<<<<<< HEAD
     font-size: calc(10px + 6vw);
-=======
-    font-size: 100px;
-}
-
-@media(max-width:500px){
-    .sidebarsatu h1{
-        font-size: 70px;
-    } 
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
 }
 
 .sidebarsatu p{
@@ -242,13 +222,7 @@ h1{
         min-width: 360px;
     }
     .sidebarsatu{
-<<<<<<< HEAD
         margin: 15% auto 10% 5%;
-=======
-        margin-top: 15%;
-        margin-left: 0%;
-        margin-bottom: 10%;
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
     }
     .sidebarsatu h1{
         text-align: center;
@@ -282,33 +256,22 @@ h1{
         background-color: #FF0411 ;
     }
     .newsicos{
-<<<<<<< HEAD
         width: 90%;
         height: fit-content;
-=======
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
         margin-bottom: 10%;
     }
     .isinews{
         text-align: center;
         margin-top: 20px;
-<<<<<<< HEAD
         width: 90%;
-=======
-        width: 100%;
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
         height: calc(800px - 30vw);
         margin-bottom: -5%;
     }
     .isinews h1{
         text-align: center;
     }
-<<<<<<< HEAD
     .sidebarsatu p{  
         width: 90%;
-=======
-    .sidebarsatu p{
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
         text-align: center;
     }
     
@@ -344,11 +307,7 @@ h1{
 
 .isinews h1{
     color: white;
-<<<<<<< HEAD
     font-size: calc(10px + 3vw);
-=======
-    font-size: 65px;
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
 }
 
 .isinews p{
@@ -403,11 +362,7 @@ h1{
 
 .speakers-description h1 {
     width: fit-content;
-<<<<<<< HEAD
     font-size: calc(10px + 3vw);
-=======
-    font-size: 65px;
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
     top: 37.5%;
     left: 3%;
 }
@@ -515,11 +470,7 @@ h1{
 @media(min-width:1900px){
     .sidebarsatu h1{
         font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
         font-size: calc(10px + 6vw);
-=======
-        font-size: 120px;
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
         font: weight 900px;
     
     }
@@ -862,22 +813,14 @@ h2{
 }
 .lurus9{
     width: 65px;
-<<<<<<< HEAD
     height: calc(320px + 25vw);
-=======
-    height: calc(340px + 25vw);
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
     position: absolute;
     right: -105px;
     top: 42px;
 }
 .lurus9 img{
     width: 65px;
-<<<<<<< HEAD
     height: calc(320px + 25vw);
-=======
-    height: calc(340px + 25vw);
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
     position: absolute;
 }
 .garing10{
@@ -909,7 +852,6 @@ h2{
     top: 42px;
     background-color: #FF0411;
 }
-<<<<<<< HEAD
 .garingspeaker{
     position: absolute;
     width: 3px;
@@ -955,25 +897,16 @@ h2{
     transform: rotate(45deg);
     background: #FF0411;
 }
-=======
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
 
 @media(max-width:1200px){
     .lurus7{
         height: calc(900px - 1vw);
     }
     .lurus9{
-<<<<<<< HEAD
         height: calc(230px + 35vw);
     }
     .lurus9 img{
         height: calc(230px + 35vw);
-=======
-        height: calc(300px + 35vw);
-    }
-    .lurus9 img{
-        height: calc(300px + 35vw);
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
     }
     .lurus10{
         position: absolute;
@@ -992,15 +925,8 @@ h2{
     }   
 
 }
-<<<<<<< HEAD
 
 
-
-=======
-
-
-
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
 @media(max-width:999px){
     .lurus{
         height: 85vw;
@@ -1029,51 +955,6 @@ h2{
         right: 105px;
         bottom: 0px;
         background-color: #FF0411;
-<<<<<<< HEAD
-=======
-    }
-    .garing10{
-        display: none;
-        right: 20px;
-        bottom: -50px;
-    }
-    .lurus10 img{
-
-        display: none;
-        position: absolute;
-        width: 100%;
-        height: 60px;
-    }
-    .lurus11{
-        display: none;
-        height: calc(300px + 10vw);
-    }
-    .recentmid2{
-        z-index: -1;
-        position: absolute;
-        width: 3px;
-        height : 50vw;
-        margin-top: -50%;
-        left: 0; 
-        right: 0; 
-        transform: rotate(180deg);
-        margin-left: auto; 
-        margin-right: auto; 
-        background: #FF0411;
-    } 
-    .linehorizontalleft{
-        display: none;
-    }
-    .linehorizontal{
-        display: none;
-    }
-
-}
-
-@media(max-width:500px){
-    .lurus2{
-        width: 80vw;
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
     }
     .garing10{
         display: none;
@@ -1142,11 +1023,6 @@ h2{
 }
 
 
-<<<<<<< HEAD
-=======
-}
-
->>>>>>> 9ea83b64a1cba3cbec7e280f8f7500266953389a
 a.popup-link {
 		padding:17px 0;
 		text-align: center;
