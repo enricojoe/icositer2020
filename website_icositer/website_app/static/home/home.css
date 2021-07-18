@@ -1,3 +1,14 @@
+p{
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+
 .linehorizontal{
     display: flex;
     height: 100%;
@@ -150,19 +161,13 @@
     text-align: center;
 }
 .sidebarsatu h1{
-    font-family: 'Poppins', sans-serif;
     color: white;
     text-align: left;
-    font: weight 900px;
     font-size: 100px;
 }
 
 @media(max-width:500px){
     .sidebarsatu h1{
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        text-align: left;
-        font: weight 900px;;
         font-size: 70px;
     } 
 }
@@ -307,8 +312,6 @@
 .isinews h1{
     color: white;
     font-size: 65px;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif;
 }
 
 .isinews p{
@@ -363,9 +366,7 @@
 
 .speakers-description h1 {
     width: fit-content;
-    font-family: 'Poppins', sans-serif;
     font-size: 65px;
-    font-weight: 900;
     top: 37.5%;
     left: 3%;
 }
@@ -537,14 +538,6 @@ h2{
 }
 
 /*apri */
-
-h1{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 65px;
-    font-weight: 900;
-}
 
 .xcontainer {
     width: 800px;
