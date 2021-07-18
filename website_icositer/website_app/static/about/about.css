@@ -1,22 +1,32 @@
 h1{
     font-family: 'Poppins', sans-serif;
-    color: white;
     text-align: center;
-    font: weight 900px;
-    margin-top: 10%;
-    font-size: 120px;
+    font-weight: 900;
 }
 h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+.judul{
+    margin-top: 10%;
+}
+.judul h1{
+    color: white;
+    font-size: 120px;
+}
+.judul h2{
     color: white;
     text-align: center;
-    font: weight 900px;
-    font-size: 90px;
+    font-size: 80px;
 }
 .garisbawah{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 25%;
     height: 3px;
     margin-left: auto;
     margin-right: auto;
@@ -31,8 +41,26 @@ h2{
 .isiinfo{
     width: 100%;
     height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
     background-color: #fff;
 }
 .info #kebalik{
     transform: rotate(180deg);
+}
+.info h1{
+    color: #12006B;
+    font-size: 80px;
+}
+.info .garisbawah{
+    margin-bottom: 3%;
+}
+.info p{
+    color: #12006B;
+    text-align: center;
+}
+.kontain{
+    margin-left: 7%;
+    margin-right: 7%;
 }
