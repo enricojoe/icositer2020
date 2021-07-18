@@ -1,10 +1,17 @@
 {% extends 'base.html' %}
 {% load static %}
+
+
+{% block title %}ICoSITeR 2021{% endblock title %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'home/home.css' %}">{% endblock style %}
+
+
 <body>
   <div class="main-wrapper">
   {% block isi %}
+  <div class="gambar"></div><div class="gambarbelakang"></div>
     <!-- main-info -->
-    
     <div class="deskripsi">
       <div class="sidebarsatu">
           <h1>ICoSITeR 2021</h1><br>

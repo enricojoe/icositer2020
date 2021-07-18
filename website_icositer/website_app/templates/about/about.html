@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}ICoSITeR 2021{% endblock title %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'about/about.css' %}">{% endblock style %}
+
+
+<body>
+  <div class="main-wrapper">
+{% block isi %}
+   
+  <h1>ICoSITeR 2021</h1>
+  <div class="garisbawah"></div>
+  <h2>SMART CITY</h2>
+  
+  <div class="info">
+    <img src="{% static 'about/asset/kota.png' %}">
+  </div>
+{% endblock isi %}
+</body>
