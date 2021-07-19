@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Competition{% endblock title %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'competition/competition.css' %}">{% endblock style %}
+
+
+<body>
+  <div class="main-wrapper">
+{% block isi %}
+
+  <div class="leftline">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="rightline">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="judul">
+    <h1 class="underline">explanation</h1>
+    <div class="garisbawah"></div>
+    <br><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore quia fugiat cupiditate aut iusto necessitatibus non asperiores officia dolores ullam eaque tenetur laudantium illum modi obcaecati, excepturi natus repellendus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio repellendus asperiores quae. Laboriosam assumenda eius sequi quam iste quae sint doloremque officiis eveniet optio blanditiis accusantium, impedit quibusdam totam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolores corporis modi id officia dolor ullam eos quis natus perferendis optio at, inventore labore, placeat debitis quam atque! Nemo, unde!
+    </p>
+  </div>
+  
+  <div class="competition">
+        <h1>Competition</h1>
+       
+        
+  </div>
+    
+<!--End Pop up-->
+{% endblock isi %}
+</body>
