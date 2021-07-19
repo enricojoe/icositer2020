@@ -71,8 +71,42 @@ p{
 }
 .judul p{
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin: auto;
+}
+.gariskiri{
+    position: absolute;
+    height: calc(1300px - 50vw);
+    width: 5px;
+    left: 90px;
+    background-color:#FF0411;
+}
+
+.garingataskiri{
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    top: -170px;
+    left: 70px;
+    background-color:#FF0411;
+    transform: rotate(45deg);
+}
+.garingataskanan{
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    top: -170px;
+    right: 70px;
+    background-color:#FF0411;
+    transform: rotate(-45deg);
+}
+
+.gariskanan{
+    position: absolute;
+    height: calc(1300px - 50vw);
+    width: 5px;
+    right: 90px;
+    background-color:#FF0411;
 }
 
 .competition{
@@ -87,6 +121,60 @@ p{
     color: white;
     font-size: calc(10px + 3vw);
 }
+.cabangcompetition{
+    margin-top: 50px;
+    text-align: center;
+}
+.cabangcompetition p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
+@media(min-width:1000px){
+    .cabangcompetition{
+        display: flex;
+    }
+}
+.poster{
+    flex: 1;
+    padding: 30px 100px 30px 100px;
+}
+.prototype{
+    flex: 1;
+    padding: 30px 100px 30px 100px;
+}
 
+.tombol{
+    color: white;
+    padding: 10px 30px 10px 30px;
+    background-color: #FF0411;
+    border-radius: 30px;
+    font-size: 28px;
+}
+.tombol:hover{
+    color: white;
+    text-decoration: none;
+}
+.download{
+    text-align: center;
+}
+.download a{
+    color: #FF0411;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+.timeline{
+    width: 80%;
+    margin-top: 210px;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.timeline h1{
+    font-size: calc(10px + 3vw);
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
 

@@ -74,15 +74,6 @@ h1{
     background-image: linear-gradient(to right,#FF0411 10%, #12006B);
 }
 
-
-.sosmed{
-    margin-top: 1%;
-    flex: 0.5;
-    background-color: none;
-    display: flex;
-}
-
-
 .line1{
     z-index: -1;
     width: 100%;
@@ -311,9 +302,9 @@ h1{
 }
 
 .isinews p{
-    font-size: 20px;
-    color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
     text-align: justify;
 }
 
