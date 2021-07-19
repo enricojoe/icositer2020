@@ -88,5 +88,35 @@ p{
     font-size: calc(10px + 3vw);
 }
 
+.conten_isi {
+    width:100%;
+    text-align:center;
+}
+
+.button {
+    background-color: #fd0808; /* Hijau */
+    color: white;
+    width:200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+.teks_judul{
+    text-align: center;
+    font-family: Poppins; 
+    font-size: 300%; 
+    color:white;
+}
+.isi_teks{
+    text-align: center;
+    color: white;
+}
+
 
 
