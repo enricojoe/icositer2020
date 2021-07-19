@@ -2,7 +2,7 @@ from django.conf.urls import url, include
 
 from . import views
 urlpatterns = [
-    url(r'^home/$',views.homepage),
-    url(r'^2021/about/$',views.about),
-    url(r'^2021/competition/$',views.competition),
+    url(r'^$',views.homepage),
+    url(r'^about/$',views.about),
+    url(r'^competition/$',views.competition),
 ]
