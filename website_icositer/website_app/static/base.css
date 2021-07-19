@@ -118,6 +118,7 @@ body{
 .isifooter p{
     margin-left: 2%;
     margin-top: -2%;
+    color: black;
 }
 .isitelpon .far{
     float: left;
