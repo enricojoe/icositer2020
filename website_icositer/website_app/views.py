@@ -6,3 +6,6 @@ def homepage (request):
 
 def about (request):
 	return render(request,'about/about.html')
+
+def competition (request):
+	return render(request,'competition/competition.html')
