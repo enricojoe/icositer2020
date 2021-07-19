@@ -1,8 +1,9 @@
 from django.conf.urls import url, include
+from django.urls import path
+from website_app.views import *
 
-from . import views
 urlpatterns = [
-    url(r'^$',views.homepage),
-    url(r'^about/$',views.about),
-    url(r'^competition/$',views.competition),
+    path('', homepage, name='home'),
+    path('about', about, name='about'),
+    path('competition', competition, name='competition'),
 ]
