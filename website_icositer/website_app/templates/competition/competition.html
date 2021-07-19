@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Competition{% endblock title %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'competition/competition.css' %}">{% endblock style %}
+
+
+<body>
+  <div class="main-wrapper">
+{% block isi %}
+
+  <div class="leftline">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="rightline">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="judul">
+    <h1 class="underline">explanation</h1>
+    <div class="garisbawah"></div>
+    <br><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore quia fugiat cupiditate aut iusto necessitatibus non asperiores officia dolores ullam eaque tenetur laudantium illum modi obcaecati, excepturi natus repellendus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio repellendus asperiores quae. Laboriosam assumenda eius sequi quam iste quae sint doloremque officiis eveniet optio blanditiis accusantium, impedit quibusdam totam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolores corporis modi id officia dolor ullam eos quis natus perferendis optio at, inventore labore, placeat debitis quam atque! Nemo, unde!
+    </p>
+  </div>
+  
+  <div class="competition">
+        <h1>Competition</h1>
+
+        <div class="row conten_isi">
+          <div class="col-md-6">
+              <p class="teks_judul"><strong>Poster</strong></p>
+              <P class="isi_teks">Lorem ipsum dolor sit amet, consectetuer<br>
+                  adipiscing elit, sed diam nonummy nibh<br> euismod tincidunt ut laoreet dolore magna<br>
+                  aliquam erat volutpat. Ut wisi enim ad<br>
+                  minim Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+                  sed diam nonummy nibh euismod tincidunt ut laoreet dolore<br>
+                  magna aliquam erat volutpat. Ut wisi enim<br>
+                  ad minim veniam, .veniam <br><br>
+                  <a href="#"><button class="button">Regist</button></a>
+              </P>
+              
+          </div>
+          <div class="col-md-6 ">
+              <p class="teks_judul"><strong>Prototype</strong></p>
+              <P class="isi_teks">Lorem ipsum dolor sit amet, consectetuer<br>
+                  adipiscing elit, sed diam nonummy nibh<br> euismod tincidunt ut laoreet dolore magna<br>
+                  aliquam erat volutpat. Ut wisi enim ad<br>
+                  minim Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+                  sed diam nonummy nibh euismod tincidunt ut laoreet dolore<br>
+                  magna aliquam erat volutpat. Ut wisi enim<br>
+                  ad minim veniam, .veniam <br><br>
+                  <a href="#"><button class="button">Regist</button></a>
+                </P>  
+          </div>
+      </div
+  </div>
+>
+    
+<!--End Pop up-->
+{% endblock isi %}
+</body>

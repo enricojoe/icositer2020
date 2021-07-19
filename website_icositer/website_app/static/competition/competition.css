@@ -1,0 +1,121 @@
+.nav-item .event{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(3vw);
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: white;
+}
+
+/* garis */
+
+.leftline{
+    display: flex;
+    z-index: -1;
+    height: 100vh;
+    width: fit-content;
+    top: 90px;
+    position: absolute;
+    left: 10px;
+}
+.rightline{
+    display: flex;
+    z-index: -1;
+    height: 100vh;
+    top: 90px;
+    width: fit-content;
+    position: absolute;
+    right: 20px;
+}
+.line{
+    width: 3px;
+    margin-left: 10px;
+    height: 100%;
+    background-color: #FF0411;
+}
+
+/* judul */
+.judul{
+    width: 90%;
+    margin-top: 210px;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul h1{
+    color: white;
+    font-size: calc(35px + 3vw);
+}
+
+.garisbawah{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF0411;
+}
+.judul p{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.competition{
+    width: 90%;
+    margin-top: 210px;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.competition h1{
+    color: white;
+    font-size: calc(10px + 3vw);
+}
+.conten_isi {
+    width:100%;
+    text-align:center;
+}
+
+.button {
+    background-color: #fd0808; /* Hijau */
+    color: white;
+    width:200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+.teks_judul{
+    text-align: center;
+    font-family: Poppins; 
+    font-size: 300%; 
+    color:white;
+}
+.isi_teks{
+    text-align: center;
+    color: white;
+}
+
+
+
