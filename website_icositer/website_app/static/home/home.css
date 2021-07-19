@@ -1,10 +1,11 @@
-p{
-
+.nav-item .home{
+    text-decoration: underline;
 }
+
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 65px;
+    font-size: calc(10px + 3vw);
     color: white;
     text-align: center;
 }
@@ -163,13 +164,7 @@ h1{
 .sidebarsatu h1{
     color: white;
     text-align: left;
-    font-size: 100px;
-}
-
-@media(max-width:500px){
-    .sidebarsatu h1{
-        font-size: 70px;
-    } 
+    font-size: calc(10px + 6vw);
 }
 
 .sidebarsatu p{
@@ -227,9 +222,7 @@ h1{
         min-width: 360px;
     }
     .sidebarsatu{
-        margin-top: 15%;
-        margin-left: 0%;
-        margin-bottom: 10%;
+        margin: 15% auto 10% 5%;
     }
     .sidebarsatu h1{
         text-align: center;
@@ -263,19 +256,22 @@ h1{
         background-color: #FF0411 ;
     }
     .newsicos{
+        width: 90%;
+        height: fit-content;
         margin-bottom: 10%;
     }
     .isinews{
         text-align: center;
         margin-top: 20px;
-        width: 100%;
+        width: 90%;
         height: calc(800px - 30vw);
         margin-bottom: -5%;
     }
     .isinews h1{
         text-align: center;
     }
-    .sidebarsatu p{
+    .sidebarsatu p{  
+        width: 90%;
         text-align: center;
     }
     
@@ -311,7 +307,7 @@ h1{
 
 .isinews h1{
     color: white;
-    font-size: 65px;
+    font-size: calc(10px + 3vw);
 }
 
 .isinews p{
@@ -366,7 +362,7 @@ h1{
 
 .speakers-description h1 {
     width: fit-content;
-    font-size: 65px;
+    font-size: calc(10px + 3vw);
     top: 37.5%;
     left: 3%;
 }
@@ -474,7 +470,7 @@ h1{
 @media(min-width:1900px){
     .sidebarsatu h1{
         font-family: 'Poppins', sans-serif;
-        font-size: 120px;
+        font-size: calc(10px + 6vw);
         font: weight 900px;
     
     }
@@ -520,7 +516,6 @@ h1{
     padding-bottom: 40px;
 }
 h2{
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 6%;
     font-size: 300%;
@@ -818,14 +813,14 @@ h2{
 }
 .lurus9{
     width: 65px;
-    height: calc(340px + 25vw);
+    height: calc(320px + 25vw);
     position: absolute;
     right: -105px;
     top: 42px;
 }
 .lurus9 img{
     width: 65px;
-    height: calc(340px + 25vw);
+    height: calc(320px + 25vw);
     position: absolute;
 }
 .garing10{
@@ -857,16 +852,61 @@ h2{
     top: 42px;
     background-color: #FF0411;
 }
+.garingspeaker{
+    position: absolute;
+    width: 3px;
+    height: 60px;
+    bottom: -50px;
+    right: calc(40vw - 290px);
+    transform: rotate(45deg);
+    background: #FF0411;
+}
+.garingspeaker2{
+    position: absolute;
+    width: 3px;
+    height: 60px;
+    bottom: -50px;
+    right: calc(40vw - 150px);
+    transform: rotate(45deg);
+    background: #FF0411;
+}
+.garingspeaker3{
+    position: absolute;
+    width: 3px;
+    height: 60px;
+    bottom: -50px;
+    right: calc(40vw - 10px);
+    transform: rotate(45deg);
+    background: #FF0411;
+}
+.garingspeaker4{
+    position: absolute;
+    width: 3px;
+    height: 60px;
+    bottom: -50px;
+    right: calc(40vw + 130px);
+    transform: rotate(45deg);
+    background: #FF0411;
+}
+.garingspeaker5{
+    position: absolute;
+    width: 3px;
+    height: 60px;
+    bottom: -50px;
+    right: calc(40vw + 270px);
+    transform: rotate(45deg);
+    background: #FF0411;
+}
 
 @media(max-width:1200px){
     .lurus7{
         height: calc(900px - 1vw);
     }
     .lurus9{
-        height: calc(300px + 35vw);
+        height: calc(230px + 35vw);
     }
     .lurus9 img{
-        height: calc(300px + 35vw);
+        height: calc(230px + 35vw);
     }
     .lurus10{
         position: absolute;
@@ -885,7 +925,6 @@ h2{
     }   
 
 }
-
 
 
 @media(max-width:999px){
@@ -952,15 +991,37 @@ h2{
     .linehorizontal{
         display: none;
     }
+    .garingspeaker{
+        display: none;
+    }
+    .garingspeaker2{
+        display: none;
+    }
+    .garingspeaker3{
+        display: none;
+    }
+    .garingspeaker4{
+        display: none;
+    }
+    .garingspeaker5{
+        display: none;
+    }
 
 }
 
 @media(max-width:500px){
     .lurus2{
-        width: 80vw;
+        width: 76vw;
     }
 
 }
+@media(max-width:400px){
+    .lurus2{
+        width: 70vw;
+    }
+
+}
+
 
 a.popup-link {
 		padding:17px 0;

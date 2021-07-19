@@ -1,5 +1,9 @@
 /* font */
 
+.nav-item .about{
+    text-decoration: underline;
+}
+
 h1{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -13,20 +17,51 @@ p{
     font-size: 19px;
 }
 
+/* garis */
+
+.leftline{
+    display: flex;
+    z-index: -1;
+    height: 100vh;
+    width: fit-content;
+    top: 90px;
+    position: absolute;
+    left: 10px;
+}
+.rightline{
+    display: flex;
+    z-index: -1;
+    height: 100vh;
+    top: 90px;
+    width: fit-content;
+    position: absolute;
+    right: 20px;
+}
+.line{
+    width: 3px;
+    margin-left: 10px;
+    height: 100%;
+    background-color: #FF0411;
+}
+
 /* judul */
 .judul{
+    width: 90%;
     margin-top: 210px;
     margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .judul h1{
     color: white;
-    font-size: 120px;
+    font-size: calc(35px + 6vw);
 }
 .judul h2{
     color: white;
     text-align: center;
-    font-size: 80px;
+    font-size: calc(35px + 3vw);
 }
+
 .garisbawah{
     margin-top: 2%;
     margin-bottom: 2%;
@@ -40,6 +75,7 @@ p{
 /* info */
 .info{
     width: 100%;
+    height: 100%;
 }
 .info img{
     width: 100%;
@@ -58,7 +94,7 @@ p{
 }
 .info h1{
     color: #12006B;
-    font-size: 80px;
+    font-size:calc(10px + 5vw);
 }
 .info .garisbawah{
     margin-bottom: 3%;
@@ -73,27 +109,59 @@ p{
 }
 
 /* media */ 
-@media(max-width:800px){
-    .judul h1{
-        font-size: 90px;
-    }
-    .judul h2{
-        font-size: 40px;
-    }
-    .info h1{
-        font-size: 50px;
-    }
-}
-
-
-
-
 
 /* circuit */
 .bulet{
-    
+    left: 15vw;
+    margin-top: 5%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #FF0411;
 }
-
+.garing{
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    left: -20px;
+    transform: rotate(45deg);
+    background: #FF0411;
+}
+.lurus{
+    position: absolute;
+    height: calc(4vw + 350px);
+    width: 3px;
+    top: 66px;
+    left: -47px;
+    background: #FF0411;
+}
+.garing2{
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    right: -27px;
+    bottom: -65px;
+    transform: rotate(-45deg);
+    background: #FF0411;
+}
+.lurus2{
+    position: absolute;
+    height: 10vw;
+    width: 3px;
+    top: calc(4vw + 400px);
+    right: -55px;
+    background: #FF0411;
+}
+.bulat{
+    right:-7px;
+    top: 70px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #FF0411;
+}
 
 
 /* Style css untuk Pop Up */
@@ -341,6 +409,36 @@ a.popup-close {
     line-height: 1;
     color:rgb(255, 255, 255);
 }
+
+.box {
+    width:100%;
+    height:100%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+  }
+  
+    .pop_isi {
+        width:100%;
+        text-align:center;
+    }
+
+    .pop_left {
+        float:left;
+        width: 33.33%;
+    }
+
+    .pop_center {
+        display: inline-block;
+        margin:0 auto;
+        width: 33.33%;
+    }
+
+    .pop_right {
+        float:right;
+        width: 33.33%;
+    }
+
 .img_hexa{
     text-align: center;
     clip-path: border-box; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -350,3 +448,4 @@ a.popup-close {
     font-style:italic;
 }
 /*End style Pop UP */
+

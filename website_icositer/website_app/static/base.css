@@ -40,45 +40,21 @@ body{
     bottom: -0.3em;
 }
 
-.garis{
-    z-index: 2;
-    width: 70%;
-    height: 3px;
-    position:absolute;
-    top: 3%;
-    background-image: linear-gradient(to right, #FF0411 70%, #12006B);
+.kumpulangaris{
+    z-index: 5;
+    top: 3px;
+    position: absolute;
+    width: 100%;
+    max-width: 70vw;
+    left: 100px;
+    height: fit-content;
 }
+
 .garis1{
-    z-index: 2;
-    width: 70%;
+    width: 70vw;
     height: 3px;
-    position:absolute;
-    top: 4.5%;
-    background-image: linear-gradient(to right, #FF0411 70%, #12006B);
-}
-.garis2{
-    z-index: 2;
-    width: 70%;
-    height: 3px;
-    position:absolute;
-    top: 6%;
-    background-image: linear-gradient(to right, #FF0411 70%, #12006B);
-}
-.garis3{
-    z-index: 2;
-    width: 70%;
-    height: 3px;
-    position:absolute;
-    top: 7.5%;
-    background-image: linear-gradient(to right, #FF0411 70%, #12006B);
-}
-.garis4{
-    z-index: 2;
-    width: 70%;
-    height: 3px;
-    position:absolute;
-    top: 9%;
-    background-image: linear-gradient(to right, #FF0411 70%, #12006B);
+    margin-top: 10px;
+    background-image: linear-gradient(to left, #FF0411 70%, #12006B);
 }
 
 .navbar{
