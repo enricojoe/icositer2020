@@ -39,6 +39,9 @@ body{
     display: block;
     bottom: -0.3em;
 }
+.dropdown-menu a{
+    color: #12006B;
+}
 
 .kumpulangaris{
     z-index: 5;
@@ -51,7 +54,7 @@ body{
 }
 
 .garis1{
-    width: 70vw;
+    width: 60vw;
     height: 3px;
     margin-top: 10px;
     background-image: linear-gradient(to left, #FF0411 70%, #12006B);
@@ -80,6 +83,8 @@ body{
     color: white;
     font-size: 25px;
 }
+
+
 .th-img {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
@@ -162,6 +167,39 @@ body{
     .sosmedfooter{
         margin-top: 10px;
         text-align: center;
+    }
+}
+
+
+@media (min-width:1500px){
+    .garis1{
+        width: 70vw;
+    }
+}
+@media (max-width:1150px){
+    .garis1{
+        width: 55vw;
+    }
+}
+@media (max-width:370px){
+    .garis1{
+        width: 40vw;
+    }
+}
+@media (max-width:991px){
+    .nav-item > a{
+        color: #12006B;
+        margin-left: 10px;
+    }
+    .nav-item{
+        background-color: white;
+    }
+    .dropdown-menu a{
+        margin-left: 20px;
+        color: white;
+    }
+    .dropdown-menu{
+        background-color: #12006B;
     }
 }
 
