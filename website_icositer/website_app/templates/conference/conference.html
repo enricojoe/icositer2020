@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Speakers{% endblock title %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'conference/conference.css' %}">{% endblock style %}
+
+
+<body>
+  <div class="main-wrapper">
+{% block isi %}
+<div class="leftline">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+<div class="rightline">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+
+  <div class="judul">
+    <h1>Conference</h1>
+    <div class="garisbawah"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore quia fugiat cupiditate aut iusto necessitatibus non asperiores officia dolores ullam eaque tenetur laudantium illum modi obcaecati, excepturi natus repellendus.
+      <br><br>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio repellendus asperiores quae. Laboriosam assumenda eius sequi quam iste quae sint doloremque officiis eveniet optio blanditiis accusantium, impedit quibusdam totam?
+  </p>
+    <div class="speakertime">
+      <ul class="speakertime-list">
+        <li>Lorem ipsum dolor sit amet, consectetur <br> 00:00</li>
+        <li>Lorem ipsum dolor sit amet, consectetur <br> 00:00</li>
+        <li>Lorem ipsum dolor sit amet, consectetur <br> 00:00</li>
+        <li>Lorem ipsum dolor sit amet, consectetur <br> 00:00</li>
+        <li>Lorem ipsum dolor sit amet, consectetur <br> 00:00</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="okupasi">
+    <div class="okupasi-isi">
+      <div class="photo"></div>
+      <div class="tulisan">
+        <h3>lorem ipsum</h2>
+        <h4>okupasi</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod perferendis ipsa ipsum quos impedit molestiae deleniti ex! Officia dolorum architecto voluptatibus dolorem quam! Cupiditate quia voluptatibus eius odit, provident optio!</p>
+      </div>
+    </div>
+    <div class="okupasi-isi">
+      <div class="photo"></div>
+      <div class="tulisan">
+        <h3>lorem ipsum</h2>
+        <h4>okupasi</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod perferendis ipsa ipsum quos impedit molestiae deleniti ex! Officia dolorum architecto voluptatibus dolorem quam! Cupiditate quia voluptatibus eius odit, provident optio!</p>
+      </div>
+    </div>
+    <div class="okupasi-isi">
+      <div class="photo"></div>
+      <div class="tulisan">
+        <h3>lorem ipsum</h2>
+        <h4>okupasi</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod perferendis ipsa ipsum quos impedit molestiae deleniti ex! Officia dolorum architecto voluptatibus dolorem quam! Cupiditate quia voluptatibus eius odit, provident optio!</p>
+      </div>
+    </div>
+  </div>
+  
+  
+{% endblock isi %}
+</body>

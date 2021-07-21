@@ -1,0 +1,136 @@
+.nav-item .event{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(3vw);
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: white;
+}
+
+/* garis */
+
+.leftline{
+    display: flex;
+    z-index: -1;
+    height: 100vh;
+    width: fit-content;
+    top: 90px;
+    position: absolute;
+    left: 10px;
+}
+.rightline{
+    display: flex;
+    z-index: -1;
+    height: 100vh;
+    top: 90px;
+    width: fit-content;
+    position: absolute;
+    right: 20px;
+}
+.line{
+    width: 3px;
+    margin-left: 10px;
+    height: 100%;
+    background-color: #FF0411;
+}
+
+/* judul */
+.judul{
+    width: 90%;
+    margin-top: 210px;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: calc(35px + 3vw);
+}
+
+.garisbawah{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF0411;
+}
+
+.judul p{
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.speakertime{
+    background-color: blue;
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+}
+
+.speakertime-list{
+    justify-content: center;
+    text-align: center;
+}
+
+.speakertime-list li{
+    margin-top: 10px;
+    display: block;
+    width: 80%;
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+    background-color: black;
+}
+@media(min-width:800px){
+    .speakertime-list{
+        display: flex;
+    }
+    .speakertime-list li{
+        display: block;
+        width: 15%;
+        text-align: left;
+        color: white;
+        margin-left: 30px;
+        background-color: black;
+    }
+}
+.okupasi{
+    width: 80%;
+    height: 100%;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.okupasi-isi{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+.okupasi-isi .photo{
+    width: 200px;
+    height: 120px;
+    float: left;
+    background-color: white;
+}
+.okupasi-isi .tulisan{
+    margin-left: 500px;
+    width: 500px;
+    background-color: black;
+}

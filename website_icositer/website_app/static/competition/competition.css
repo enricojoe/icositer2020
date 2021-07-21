@@ -78,7 +78,7 @@ p{
     position: absolute;
     height: calc(1300px - 50vw);
     width: 5px;
-    left: 90px;
+    left: 5%;
     background-color:#FF0411;
 }
 
@@ -157,10 +157,23 @@ p{
     position: absolute;
     height: calc(1300px - 50vw);
     width: 5px;
-    right: 90px;
+    right: 5%;
     background-color:#FF0411;
 }
 
+@media(max-width:999px){
+    .gariskanan{
+        display: none;
+    }
+    .gariskiri{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .line{
+        display: none;
+    }
+}
 .competition{
     width: 90%;
     margin-top: 210px;
@@ -219,7 +232,7 @@ p{
 .timeline{
     width: 80%;
     margin-top: 210px;
-    margin-bottom: 110px;
+    margin-bottom: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -230,3 +243,68 @@ p{
     margin-left: 10px;
 }
 
+.isitimeline{
+    margin-top: 300px;
+    display: flex;
+    margin-bottom: 100px;
+    counter-reset: step;
+}
+
+.isitimeline li{
+    list-style-type: none;
+    float: left;
+    width: 33.33%;
+    color: white;
+    position: relative;
+    text-align:center;
+}
+.isitimeline li:before{
+    content: counter(step);
+    counter-increment: step;
+    width: 60px;
+    height: 60px;
+    display: block;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    margin: -20px auto 10px auto;
+    border-radius: 50%;
+    background-color: #FF0411;
+}
+.progress{
+    margin-top: 8px;
+    width: 80%;
+    height: 10px;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.progress-bar{
+    background-color: #FF0411;
+}
+.kiri{
+    width: 20px;
+    height: 60px;
+    margin-top: -15px;
+    border-radius: 10px;
+    margin-left: 0px;
+    position: absolute;
+    background-color: #FF0411;
+}
+.kanan{
+    width: 20px;
+    height: 60px;
+    position: absolute;
+    margin-top: -15px;
+    border-radius: 10px;
+    right: 10%;
+    background-color: #FF0411;
+}
+.isitimeline li img{
+    margin-left: -100px;
+}
+.isitimeline li p{
+    margin-top: 10px;
+    margin-left: -200px;
+}
