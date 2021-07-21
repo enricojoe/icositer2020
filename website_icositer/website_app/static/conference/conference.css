@@ -14,6 +14,17 @@ h2{
     font-weight: 900;
     color: white;
 }
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    color: white;
+}
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: white;
+}
 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 19px;
@@ -78,7 +89,6 @@ p{
 }
 
 .speakertime{
-    background-color: blue;
     width: 80%;
     height: 100%;
     margin: 100px auto;
@@ -96,8 +106,107 @@ p{
     text-align: left;
     color: white;
     margin-left: 30px;
-    background-color: black;
 }
+.okupasi{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 250px;
+}
+.okupasi-isi{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.okupasi-svg {
+    width:280px;
+    height: 280px;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.okupasi-img {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.okupasi-img > img{
+    margin-top: 30%;
+    width: 168px;
+    height: 146px;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;   
+    right: 0;  
+    margin: auto;
+    object-fit: cover;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.tulisan{
+    margin-top: 10px;
+    flex: 2;
+    text-align: center;
+}
+.tulisan p{
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.kartu{
+    width: 90%;
+    margin: 100px auto 250px auto;
+}
+.kartu-speaker{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.kartu-speaker-isi{
+    background-color: #FF0411;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.kartu-speaker-isi-gambar{
+    background-color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+.kartu-speaker-isi p{
+    width: 200px;
+    font-size: 15px;
+    text-align: left;
+    margin: 10px auto 40px auto;
+
+}
+.kartu-speaker-isi a{
+   padding:10px 20% 10px 20%;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   background-color: white;
+}
+
+
+/* media */
+
 @media(min-width:800px){
     .speakertime-list{
         display: flex;
@@ -108,29 +217,53 @@ p{
         text-align: left;
         color: white;
         margin-left: 30px;
-        background-color: black;
     }
 }
-.okupasi{
-    width: 80%;
-    height: 100%;
-    background-color: red;
-    margin: auto;
-    margin-bottom: 100px;
+@media(min-width:999px){
+    .okupasi-isi{
+        display: flex;
+        justify-content: space-between;
+    }
+    .okupasi-img{
+        height:250px;
+    }
+    .okupasi-isi.right .tulisan{
+        order: -1;
+        text-align: right;
+    }
+    .okupasi-isi.right .tulisan p{
+        margin-right: 0px;
+        margin-left: auto;
+    }
+    .tulisan{
+        margin-top: 10px;
+        flex: 2;
+        text-align: left;
+    }
+    .tulisan p{
+        margin-top: 40px;
+        width:300px;
+        margin-left: 0px;
+    }
 }
-.okupasi-isi{
-    width: 100%;
-    height: 100%;
-    background-color: blue;
+
+@media(min-width:1500px){
+    .okupasi-isi.right .tulisan{
+        order: -1;
+        text-align: right;
+        margin-right: -5%;
+        margin-left: 10%;
+    }
+    .tulisan{
+        margin-top: 10px;
+        flex: 2;
+        text-align: left;
+        margin-left: -5%;
+    }
+
 }
-.okupasi-isi .photo{
-    width: 200px;
-    height: 120px;
-    float: left;
-    background-color: white;
-}
-.okupasi-isi .tulisan{
-    margin-left: 500px;
-    width: 500px;
-    background-color: black;
+@media(max-width:662px){
+    .kartu-speaker{
+        justify-content: center;
+    }
 }
