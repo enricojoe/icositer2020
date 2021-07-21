@@ -142,23 +142,20 @@ p{
 .circuit3{
     z-index: 3;
     position: absolute;
-    left: calc(25vw - 100px);
+    left: calc(25vw - 120px);
     margin-top: calc(390px - 10vw);
 }
-.circuit3-rotate{
-    z-index: 3;
-    position: absolute;
-    right: calc(25vw - 100px);
-    margin-top: calc(390px - 10vw);
+.circuit3.rotate{
+    right: calc(25vw - 120px);
     transform: scaleX(-1);
 }
 .circuit3 img{
     height: calc(80px + 12vw);
     max-width: 1000px;
 }
-.circuit3-rotate img{
+/* .circuit3-rotate img{
     height: calc(80px + 12vw);
-}
+} */
 .circuit4{
     text-align: center;
     width: 100%;
@@ -481,8 +478,16 @@ a.popup-close {
     color: white;
 }
 
+.committee-section {
+    margin-bottom: 200px;
+}
+
+.committee-section:last-child {
+    margin-bottom: 0;
+}
+
 .committee-main {
-    margin-bottom: 240px;
+    margin-bottom: 265px;
     padding: 0 12px;
 }
 
