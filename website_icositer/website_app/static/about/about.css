@@ -22,7 +22,7 @@ p{
 .leftline{
     display: flex;
     z-index: -1;
-    height: 100vh;
+    height: 500vh;
     width: fit-content;
     top: 90px;
     position: absolute;
@@ -31,7 +31,7 @@ p{
 .rightline{
     display: flex;
     z-index: -1;
-    height: 100vh;
+    height: 500vh;
     top: 90px;
     width: fit-content;
     position: absolute;
@@ -112,57 +112,73 @@ p{
 
 /* circuit */
 .bulet{
-    left: 15vw;
+    left: 10vw;
     margin-top: 5%;
     position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background: #FF0411;
 }
-.garing{
-    position: absolute;
-    width: 3px;
-    height: 80px;
-    left: -20px;
-    transform: rotate(45deg);
-    background: #FF0411;
-}
-.lurus{
-    position: absolute;
-    height: calc(4vw + 350px);
-    width: 3px;
-    top: 66px;
-    left: -47px;
-    background: #FF0411;
-}
-.garing2{
-    position: absolute;
-    width: 3px;
-    height: 80px;
-    right: -27px;
-    bottom: -65px;
-    transform: rotate(-45deg);
-    background: #FF0411;
-}
-.lurus2{
-    position: absolute;
-    height: 10vw;
-    width: 3px;
-    top: calc(4vw + 400px);
-    right: -55px;
-    background: #FF0411;
-}
-.bulat{
-    right:-7px;
-    top: 70px;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background: #FF0411;
+.bulet img{
+    height: calc(200px + 37vw);
 }
 
+.circuit2{
+    z-index: 3;
+    position: absolute;
+    right: calc(10vw);
+    margin-top: -22%;
+}
+.circuit2 img{
+    height: calc(200px + 20vw);
+}
+.circuit3{
+    z-index: 3;
+    position: absolute;
+    left: calc(25vw - 100px);
+    margin-top: calc(390px - 10vw);
+}
+.circuit3-rotate{
+    z-index: 3;
+    position: absolute;
+    right: calc(25vw - 100px);
+    margin-top: calc(390px - 10vw);
+    transform: scaleX(-1);
+}
+.circuit3 img{
+    height: calc(80px + 12vw);
+    max-width: 1000px;
+}
+.circuit3-rotate img{
+    height: calc(80px + 12vw);
+}
+.circuit4{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    margin-top: -200px;
+    text-align: center;
+}
+.circuit4 img{
+    width: 50vw;
+    max-width: 800px;
+}
+.circuit5{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    margin-top: calc(-300px - 10vw);
+    text-align: center;
+}
+.circuit5 img {
+    width: calc(400px + 50vw);
+    max-width: 1400px;
+}
+
+@media(max-width:1000px){
+    .circuit5{
+        display: none;
+    }
+}
 
 /* Style css untuk Pop Up */
 /* a.popup-link {

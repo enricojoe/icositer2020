@@ -91,6 +91,24 @@ p{
     background-color:#FF0411;
     transform: rotate(45deg);
 }
+.garingbawahkiri{
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    bottom: -170px;
+    left: 70px;
+    background-color:#FF0411;
+    transform: rotate(-45deg);
+}
+.garingbawahkanan{
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    bottom: -170px;
+    right: 70px;
+    background-color:#FF0411;
+    transform: rotate(45deg);
+}
 .garingataskanan{
     position: absolute;
     width: 5px;
@@ -99,6 +117,40 @@ p{
     right: 70px;
     background-color:#FF0411;
     transform: rotate(-45deg);
+}
+
+.garishorizontal{
+    left:142px;
+    top: -142px;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: #FF0411;
+}
+.garishorizontal-right{
+    right:142px;
+    top: -142px;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: #FF0411;
+}
+
+.garishorizontal-bawah{
+    left:142px;
+    bottom: -142px;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: #FF0411;
+}
+.garishorizontal-right-bawah{
+    right:142px;
+    bottom: -142px;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: #FF0411;
 }
 
 .gariskanan{
