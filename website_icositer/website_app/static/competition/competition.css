@@ -244,7 +244,7 @@ p{
 }
 
 .isitimeline{
-    margin-top: 300px;
+    margin-top: 400px;
     display: flex;
     margin-bottom: 100px;
     counter-reset: step;
@@ -301,6 +301,14 @@ p{
     right: 10%;
     background-color: #FF0411;
 }
+.kebalik img{
+   margin-top: -400px;
+   margin-right: -200px;
+}
+.kebalik p{
+     margin-top: -400px;
+   margin-right: -200px;
+}
 .isitimeline li img{
     margin-left: -100px;
 }
@@ -308,3 +316,4 @@ p{
     margin-top: 10px;
     margin-left: -200px;
 }
+
