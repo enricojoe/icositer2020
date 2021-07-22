@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Perlombaan Poster{% endblock title %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'poster/form.css' %}">{% endblock style %}
+
+
+<body>
+  <div class="main-wrapper">
+{% block isi %}
+<div class="leftline">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+<div class="rightline">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+
+  <div class="judul">
+    <h1>Daftar Perlombaan Prototype</h1>
+    <div class="garisbawah"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore quia fugiat cupiditate aut iusto necessitatibus non asperiores officia dolores ullam eaque tenetur laudantium illum modi obcaecati, excepturi natus repellendus.
+    <form method="POST">
+      {% csrf_token %}
+        <table>
+          {{akun_form.as_table}}
+        </table>
+      <button type="Submit">Kirim</button>
+    </form>
+      
+    </div>
+  </div>
+
+
+
+  
+  
+{% endblock isi %}
+</body>
