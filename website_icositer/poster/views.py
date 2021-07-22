@@ -33,12 +33,12 @@ def list(request):
 
 import xlwt
 
-def export_library_xls(request):
+def export_poster_xls(request):
     response = HttpResponse(content_type='application/ms-excel')
-    response['Content-Disposition'] = 'attachment; filename="Perpus.xls"'
+    response['Content-Disposition'] = 'attachment; filename="poster.xls"'
  
     wb = xlwt.Workbook(encoding='utf-8')
-    ws = wb.add_sheet('PerpustakAAn')
+    ws = wb.add_sheet('POSTER')
  
     # Sheet header, first row
     row_num = 1
@@ -46,7 +46,7 @@ def export_library_xls(request):
     font_style = xlwt.XFStyle()
     font_style.font.bold = True
  
-    columns = ['id_library', 'name']
+    columns = ['Nama Ketua', 'Email', 'No Telepon', 'Instansi', 'Prodi Ketua','Nama Anggota','Prodi Anggota','Subtema']
  
     for col_num in range(len(columns)):
         ws.write(row_num, col_num, columns[col_num], font_style)
@@ -54,7 +54,7 @@ def export_library_xls(request):
     # Sheet body, remaining rows
     font_style = xlwt.XFStyle()
  
-    rows = PerpustakaanForm.objects.all().values_list('id_library', 'name')
+    rows = Poster.objects.all().values_list('nama_ketua', 'email', 'no_telepon', 'instansi', 'prodi_ketua','nama_anggota','prodi_anggota','subtema')
     for row in rows:
         row_num += 1
         for col_num in range(len(row)):
