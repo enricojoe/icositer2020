@@ -9,3 +9,6 @@ def about (request):
 
 def competition (request):
 	return render(request,'competition/competition.html')
+
+def conference (request):
+	return render(request,'conference/conference.html')

@@ -256,6 +256,7 @@ h1{
         width: 90%;
         height: calc(800px - 30vw);
         margin-bottom: -5%;
+        margin-left: 5%;
     }
     .isinews h1{
         text-align: center;
