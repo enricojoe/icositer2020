@@ -140,16 +140,17 @@ p{
 .circuit3{
     z-index: 3;
     position: absolute;
-    left: calc(25vw - 120px);
-    margin-top: calc(390px - 10vw);
+    top: 60%;
+    left: 5%;
+    width: 100%;
 }
 .circuit3.rotate{
-    right: calc(25vw - 120px);
     transform: scaleX(-1);
+    left: -5%;
 }
 .circuit3 img{
-    height: calc(80px + 12vw);
-    max-width: 1000px;
+    height: 235px;
+    width: 80%;
 }
 /* .circuit3-rotate img{
     height: calc(80px + 12vw);
@@ -471,9 +472,14 @@ a.popup-close {
 /* COMMITTEE SECTION STYLING */
 
 .committee-wrapper {
+    box-sizing: content-box;
     margin-top: 27px;
-    padding: 0 10%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    padding: 0 5%;
     color: white;
+    position: relative;
 }
 
 .committee-section {
@@ -485,8 +491,17 @@ a.popup-close {
 }
 
 .committee-main {
-    margin-bottom: 265px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 205px;
     padding: 0 12px;
+    position: relative;
+}
+
+.committee-main.reversed {
+    flex-direction: row-reverse;
 }
 
 .committee-img {
@@ -508,6 +523,7 @@ a.popup-close {
     width: 480px;
     font-size: 4rem;
     text-align: justify;
+    z-index: 10;
 }
 
 .committee-main-info {
@@ -531,6 +547,7 @@ a.popup-close {
 
 .committee-main-info-text {
     margin-top: 60px;
+    text-align: center;
 }
 
 .committee-tree {
@@ -555,6 +572,7 @@ a.popup-close {
     flex-direction: column;
     align-items: center;
     margin-bottom: 80px;
+    max-width: 245px;
 }
 
 .committee-info:hover {
@@ -573,4 +591,24 @@ a.popup-close {
 .committee-info-text {
     text-align: center;
     margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .circuits {
+        display: none;
+    }
+
+    .committee-main, .committee-main.reversed {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .committee-main>h1{
+        text-align: center;
+    }
+
+    .committee-main-info {
+        margin-top: 150px;
+    }
 }
