@@ -25,7 +25,7 @@ p{
 .leftline{
     display: flex;
     z-index: -1;
-    height: 100vh;
+    height: 3100px;
     width: fit-content;
     top: 90px;
     position: absolute;
@@ -34,7 +34,7 @@ p{
 .rightline{
     display: flex;
     z-index: -1;
-    height: 100vh;
+    height: 3100px;
     top: 90px;
     width: fit-content;
     position: absolute;
@@ -343,6 +343,18 @@ p{
     }
     .isi{
         display: block;
+    }
+    .bulet{
+        display: none;
+    }
+    .ujungkeujung{
+        margin-left: 0%;
+    }
+    .registerlomba{
+        margin: auto;
+    }
+    .garisbawah-competition{
+        margin: auto;
     }
 }
 @media(max-width:600px){
