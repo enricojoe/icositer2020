@@ -10,13 +10,13 @@ h1{
 h2{
     font-family: 'Poppins', sans-serif;
     font-size: calc(50px+2vw);
-    text-align: center;
+    text-align: left;
     font-weight: 900;
     color: white;
 }
 p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+    font-size: 16px;
     color: white;
 }
 
@@ -73,10 +73,12 @@ p{
     text-align: center;
     width: 80%;
     margin: auto;
+    margin-top: 100px;
+
 }
 .gariskiri{
     position: absolute;
-    height: calc(1300px - 50vw);
+    height: 400px;
     width: 5px;
     left: 5%;
     background-color:#FF0411;
@@ -155,64 +157,63 @@ p{
 
 .gariskanan{
     position: absolute;
-    height: calc(1300px - 50vw);
+    height: 400px;
     width: 5px;
     right: 5%;
     background-color:#FF0411;
 }
 
-@media(max-width:999px){
-    .gariskanan{
-        display: none;
-    }
-    .gariskiri{
-        display: none;
-    }
-}
-@media(max-width:600px){
-    .line{
-        display: none;
-    }
-}
 .competition{
-    width: 90%;
-    margin-top: 210px;
+    width: 80%;
+    margin-top: 350px;
     margin-bottom: 110px;
     margin-left: auto;
     margin-right: auto;
 }
+.garisbawah-competition{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 35%;
+    height: 3px;
+    background-color: #FF0411;
+}
 
 .competition h1{
+    text-align: left;
     color: white;
     font-size: calc(40px + 2vw);
 }
 .cabangcompetition{
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
+}
+.cabangcompetition h2{
+    margin-top: 50px;
 }
 .cabangcompetition p{
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
-@media(min-width:1000px){
-    .cabangcompetition{
-        display: flex;
-    }
+.isi{
+    display: flex;
 }
-.poster{
+.isi p{
     flex: 1;
-    padding: 30px 100px 30px 100px;
 }
-.prototype{
-    flex: 1;
-    padding: 30px 100px 30px 100px;
+.isi .registerlomba{
+    flex: 2;
 }
-
+.registerlomba{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 60px;
+}
 .tombol{
     color: white;
-    padding: 10px 30px 10px 30px;
     background-color: #FF0411;
+    padding: 10px 50px 10px 50px;
     border-radius: 30px;
     font-size: 28px;
 }
@@ -222,6 +223,8 @@ p{
 }
 .download{
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 .download a{
     color: #FF0411;
@@ -244,33 +247,56 @@ p{
 }
 
 .isitimeline{
-    margin-top: 400px;
     display: flex;
+    align-items: center;
     margin-bottom: 100px;
-    counter-reset: step;
 }
 
-.isitimeline li{
-    list-style-type: none;
-    float: left;
-    width: 33.33%;
-    color: white;
-    position: relative;
-    text-align:center;
+.isitimeline ul{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
 }
-.isitimeline li:before{
-    content: counter(step);
-    counter-increment: step;
-    width: 60px;
-    height: 60px;
-    display: block;
-    color: white;
-    line-height: 60px;
-    text-align: center;
-    margin: -20px auto 10px auto;
-    border-radius: 50%;
+.isitimeline .kebalik{
+    z-index: 2;
+    margin-top: -180px;
+}
+.isitimeline .normal{
+    margin-top: 250px;
+}
+.tanggal{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     background-color: #FF0411;
+    border-radius: 100%;
+    text-align: center;
+    margin: auto;
 }
+.isitimeline .kebalik img{
+    position: relative;
+    margin-left: 110px;
+    margin-bottom: 15px;
+}
+.isitimeline .normal img{
+    position: relative;
+    margin-right: 110px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.isitimeline ul{
+    width: 80%;
+    display: flex;
+}
+.isitimeline li{
+    position: relative;
+}
+
+
 .progress{
     margin-top: 8px;
     width: 80%;
@@ -279,6 +305,10 @@ p{
     position: absolute;
     z-index: -1;
 }
+.bulan{
+    margin-top: 10px;
+    text-align: center;
+}
 
 .progress-bar{
     background-color: #FF0411;
@@ -286,7 +316,7 @@ p{
 .kiri{
     width: 20px;
     height: 60px;
-    margin-top: -15px;
+    margin-top: 10px;
     border-radius: 10px;
     margin-left: 0px;
     position: absolute;
@@ -296,24 +326,42 @@ p{
     width: 20px;
     height: 60px;
     position: absolute;
-    margin-top: -15px;
+    margin-top: 10px;
     border-radius: 10px;
     right: 10%;
     background-color: #FF0411;
 }
-.kebalik img{
-   margin-top: -400px;
-   margin-right: -200px;
-}
-.kebalik p{
-     margin-top: -400px;
-   margin-right: -200px;
-}
-.isitimeline li img{
-    margin-left: -100px;
-}
-.isitimeline li p{
-    margin-top: 10px;
-    margin-left: -200px;
-}
 
+
+@media(max-width:999px){
+    .gariskanan{
+        display: none;
+    }
+    .gariskiri{
+        display: none;
+    }
+    .judul p{
+        margin-top: 0px;
+    }
+    
+    .competition h1{
+        text-align: center;
+    }
+    .cabangcompetition{
+        text-align: center;
+    }
+    .cabangcompetition h2{
+        text-align: center;
+    }
+    .cabangcompetition p{
+        margin-top: 10px;
+    }
+    .isi{
+        display: block;
+    }
+}
+@media(max-width:600px){
+    .line{
+        display: none;
+    }
+}
