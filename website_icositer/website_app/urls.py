@@ -7,4 +7,6 @@ urlpatterns = [
     path('about', about, name='about'),
     path('competition', competition, name='competition'),
     path('conference', conference, name='conference'),
+    url(r'^poster/', include('poster.urls',namespace='poster')),
+    url(r'^prototype/', include('prototype.urls',namespace='prototype')),
 ]
