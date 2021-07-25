@@ -36,7 +36,7 @@ p{
 .leftline{
     display: flex;
     z-index: -1;
-    height: 100vh;
+    height: calc(6000px - 150vw);
     width: fit-content;
     top: 90px;
     position: absolute;
@@ -45,7 +45,7 @@ p{
 .rightline{
     display: flex;
     z-index: -1;
-    height: 100vh;
+    height: calc(6000px - 150vw);
     top: 90px;
     width: fit-content;
     position: absolute;
@@ -301,6 +301,7 @@ p{
         width:300px;
         margin-left: 0px;
     }
+
 }
 .register{
     width: 80%;
@@ -341,5 +342,25 @@ p{
 @media(max-width:662px){
     .kartu-speaker{
         justify-content: center;
+    }
+    .leftline{
+        display: none;
+    }
+    .rightline{
+        display: none;
+    }
+    .garisbawah{
+        display: none;
+    }
+    .bulet{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .garisbawah{
+        display: none;
+    }
+    .bulet{
+        display: none;
     }
 }
