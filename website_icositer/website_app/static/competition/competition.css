@@ -224,6 +224,44 @@ p{
 .download{
     text-align: center;
     width: 80%;
+    margin-top: 50px;
+    text-align: center;
+}
+.cabangcompetition h2{
+    margin-top: 50px;
+}
+.cabangcompetition p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.isi{
+    display: flex;
+}
+.isi p{
+    flex: 1;
+}
+.isi .registerlomba{
+    flex: 2;
+}
+.registerlomba{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 60px;
+}
+.tombol{
+    color: white;
+    background-color: #FF0411;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+    font-size: 28px;
+}
+.tombol:hover{
+    color: white;
+    text-decoration: none;
+}
+.download{
     margin: auto;
 }
 .download a{
@@ -231,107 +269,54 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-size: 19px;
 }
-
 .timeline{
-    width: 80%;
-    margin-top: 210px;
-    margin-bottom: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.timeline h1{
-    font-size: calc(40px + 2vw);
-    color: white;
-    text-align: left;
-    margin-left: 10px;
-}
-
-.isitimeline{
-    display: flex;
-    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
-
-.isitimeline ul{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    margin: auto;
+.timeline-list{
     justify-content: space-between;
+    text-align: center;
 }
-.isitimeline .kebalik{
-    z-index: 2;
-    margin-top: -180px;
+.timeline-list li{
+    margin-top: 10px;
+    display: block;
+    width: 90%;
+    text-align: left;
+    color: white;
+    margin-left: 30px;
 }
-.isitimeline .normal{
-    margin-top: 250px;
-}
-.tanggal{
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #FF0411;
+.bulet{
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
-    text-align: center;
-    margin: auto;
+    border: 3px solid #FF0411;
+    margin: auto auto 20px auto;
+    background-color: none;
 }
-.isitimeline .kebalik img{
-    position: relative;
-    margin-left: 110px;
-    margin-bottom: 15px;
-}
-.isitimeline .normal img{
-    position: relative;
-    margin-right: 110px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.isitimeline ul{
-    width: 80%;
-    display: flex;
-}
-.isitimeline li{
-    position: relative;
-}
-
-
-.progress{
-    margin-top: 8px;
-    width: 80%;
-    height: 10px;
-    content: '';
+.ujungkeujung{
+    width: calc(80vw);
+    height: 3px;
+    margin-left: 40px;
     position: absolute;
-    z-index: -1;
-}
-.bulan{
-    margin-top: 10px;
-    text-align: center;
-}
-
-.progress-bar{
+    margin-top: -68px;
     background-color: #FF0411;
 }
-.kiri{
-    width: 20px;
-    height: 60px;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-left: 0px;
-    position: absolute;
-    background-color: #FF0411;
-}
-.kanan{
-    width: 20px;
-    height: 60px;
-    position: absolute;
-    margin-top: 10px;
-    border-radius: 10px;
-    right: 10%;
+.garing{
+    width: 3px;
+    height: 115px;
+    margin-left: 45px;
+    margin-top:-95px;
+    transform: rotate(45deg);
     background-color: #FF0411;
 }
 
+@media(min-width:1000px){
+    .timeline-list{
+        display: flex;
+    }
+}
 
 @media(max-width:999px){
     .gariskanan{
