@@ -76,7 +76,7 @@ p{
     margin-bottom: 2%;
     width: 60%;
     height: 3px;
-    margin-left: 150px;
+    margin-left: 10vw;
     background-color: #FF0411;
 }
 .garing1{
@@ -106,7 +106,7 @@ p{
     background-color: #FF0411;
 }
 .lurus2{
-    width: 100px;
+    width: calc(60px + 70vw);
     height: 3px;
     margin-top: 290px;
     margin-left: 52px;
@@ -116,27 +116,44 @@ p{
 .judul p{
     text-align: left;
     width: 80%;
+    height: 300px;
     margin: auto;
 }
 
 .speakertime{
     width: 80%;
     height: 100%;
-    margin: 200px auto;
+    margin: calc(95px - 2vw) auto;
 }
 
 .speakertime-list{
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 
 .speakertime-list li{
     margin-top: 10px;
     display: block;
-    width: 80%;
+    width: 90%;
     text-align: left;
     color: white;
     margin-left: 30px;
+}
+.bulet{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 3px solid #FF0411;
+    margin: auto auto 20px auto;
+    background-color: none;
+}
+.garing{
+    width: 3px;
+    height: 115px;
+    margin-left: 45px;
+    margin-top:-95px;
+    transform: rotate(45deg);
+    background-color: #FF0411;
 }
 .okupasi{
     width: 90%;
@@ -197,7 +214,7 @@ p{
 
 .kartu{
     width: 90%;
-    margin: 100px auto 250px auto;
+    margin: 100px auto 100px auto;
 }
 .kartu-speaker{
     display: flex;
@@ -210,7 +227,7 @@ p{
     width: 300px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 500px;
+    height: 450px;
     margin-top: 50px;
     border-radius: 20px;
     text-align: center;
@@ -284,6 +301,26 @@ p{
         width:300px;
         margin-left: 0px;
     }
+}
+.register{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 250px;
+}
+.register a{
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: white;
+    color: #12006B ;
+}
+.register a:hover{
+    text-decoration: none;
+}
+.register:hover{
+    transform: scale(1.1);
 }
 
 @media(min-width:1500px){
