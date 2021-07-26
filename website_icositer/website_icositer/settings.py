@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'gdstorage',
     'website_app',
     'poster',
     'prototype',
@@ -136,3 +137,6 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = 'json_file/django-icos-0652f0764d97.json'
+GOOGLE_DRIVE_STORAGE_MEDIA_ROOT = '/coba/haha' # OPTIONAL
