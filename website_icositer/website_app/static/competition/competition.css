@@ -2,44 +2,8 @@
     text-decoration: underline;
 }
 
-h1{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-weight: 900;
-}
-h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: calc(50px+2vw);
-    text-align: left;
-    font-weight: 900;
-    color: white;
-}
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: white;
-}
-
 /* garis */
 
-.leftline{
-    display: flex;
-    z-index: -1;
-    height: 3100px;
-    width: fit-content;
-    top: 90px;
-    position: absolute;
-    left: 10px;
-}
-.rightline{
-    display: flex;
-    z-index: -1;
-    height: 3100px;
-    top: 90px;
-    width: fit-content;
-    position: absolute;
-    right: 20px;
-}
 .line{
     width: 3px;
     margin-left: 10px;
@@ -301,6 +265,7 @@ p{
     margin-left: 40px;
     position: absolute;
     margin-top: -68px;
+    max-width: 1600px;
     background-color: #FF0411;
 }
 .garing{
