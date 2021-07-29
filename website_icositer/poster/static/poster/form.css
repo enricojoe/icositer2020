@@ -7,29 +7,6 @@ h1{
     text-align: center;
     font-weight: 900;
 }
-h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: calc(3vw);
-    text-align: center;
-    font-weight: 900;
-    color: white;
-}
-h4{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-weight: bold;
-    color: white;
-}
-h6{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    color: white;
-}
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    color: white;
-}
 
 /* garis */
 
@@ -61,8 +38,8 @@ p{
 /* judul */
 .judul{
     width: 90%;
-    margin-top: 210px;
-    margin-bottom: 110px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -88,70 +65,6 @@ p{
     margin: auto;
 }
 
-.speakertime{
-    width: 80%;
-    height: 100%;
-    margin: 100px auto;
-}
-
-.speakertime-list{
-    justify-content: center;
-    text-align: center;
-}
-
-.speakertime-list li{
-    margin-top: 10px;
-    display: block;
-    width: 80%;
-    text-align: left;
-    color: white;
-    margin-left: 30px;
-}
-.okupasi{
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    margin-bottom: 250px;
-}
-.okupasi-isi{
-    width: 100%;
-    height: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-}
-
-.okupasi-svg {
-    width:280px;
-    height: 280px;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;
-}
-
-.okupasi-img {
-    flex: 1;
-    position: relative;
-    width: 100%;
-    height: 300px;
-}
-
-.okupasi-img > img{
-    margin-top: 30%;
-    width: 168px;
-    height: 146px;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;   
-    right: 0;  
-    margin: auto;
-    object-fit: cover;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-}
 
 .tulisan{
     margin-top: 10px;
@@ -162,46 +75,6 @@ p{
     margin-top: 40px;
     width: 80%;
     margin: auto;
-}
-
-
-.kartu{
-    width: 90%;
-    margin: 100px auto 250px auto;
-}
-.kartu-speaker{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.kartu-speaker-isi{
-    background-color: #FF0411;
-    width: 300px;
-    height: 500px;
-    margin-top: 50px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.kartu-speaker-isi-gambar{
-    background-color: white;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-    margin: 20px auto;
-}
-.kartu-speaker-isi p{
-    width: 200px;
-    font-size: 15px;
-    text-align: left;
-    margin: 10px auto 40px auto;
-
-}
-.kartu-speaker-isi a{
-   padding:10px 20% 10px 20%;
-   border-radius: 10px;
-   margin-bottom: 10px;
-   background-color: white;
 }
 
 .tulisan_login{
@@ -248,75 +121,12 @@ label{
 
 
 /* media */
-
-@media(min-width:800px){
-    .speakertime-list{
-        display: flex;
-    }
-    .speakertime-list li{
-        display: block;
-        width: 15%;
-        text-align: left;
-        color: white;
-        margin-left: 30px;
-    }
-}
-@media(min-width:999px){
-    .okupasi-isi{
-        display: flex;
-        justify-content: space-between;
-    }
-    .okupasi-img{
-        height:250px;
-    }
-    .okupasi-isi.right .tulisan{
-        order: -1;
-        text-align: right;
-    }
-    .okupasi-isi.right .tulisan p{
-        margin-right: 0px;
-        margin-left: auto;
-    }
-    .tulisan{
-        margin-top: 10px;
-        flex: 2;
-        text-align: left;
-    }
-    .tulisan p{
-        margin-top: 40px;
-        width:300px;
-        margin-left: 0px;
-    }
-}
-
-@media(min-width:1500px){
-    .okupasi-isi.right .tulisan{
-        order: -1;
-        text-align: right;
-        margin-right: -5%;
-        margin-left: 10%;
-    }
-    .tulisan{
-        margin-top: 10px;
-        flex: 2;
-        text-align: left;
-        margin-left: -5%;
-    }
-
-}
-@media(max-width:662px){
-    .kartu-speaker{
-        justify-content: center;
-    }
-}
-
 body {
 	margin:  0;
 }
 .page-content {
 	width: 100%;
 	margin:  0 auto;
-	background: #4077c8;
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
@@ -337,7 +147,7 @@ body {
 	-ms-border-radius: 15px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
-	margin: 185px 0;
+	margin: 18px 0;
 	font-family: 'Nunito', sans-serif;
 	color: #fff;
 	font-weight: 700;
@@ -345,7 +155,7 @@ body {
 	position: relative;
 }
 .form-v9-content .form-detail {
-    padding: 30px 135px 30px 100px;
+    padding: 10px 135px 30px 100px;
 	position: relative;
 }
 .form-v9-content .form-detail h2 {
@@ -356,7 +166,7 @@ body {
 	margin-bottom: 55px;
 }
 .form-v9-content .form-detail h2::after {
-	background: #fff;
+	
 	width: 73px;
 	height: 3px;
 	content: "";
@@ -387,7 +197,7 @@ body {
 .form-v9-content .form-detail .input-text {
 	margin-bottom: 45px;
 }
-.form-v9-content .form-detail input {
+.form-v9-content .form-detail input:not(.regist) {
 	width: 100%;
     padding: 14.5px 0px 14.5px 30px;
     border: 2px solid #ccc;
@@ -439,7 +249,16 @@ body {
 	background: #d95252;
 }
 .form-v9-content .form-detail .form-row-last input {
-	padding: 14px;
+    width: 40%;
+    color: white;
+    background: #ff0048;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
 }
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #e5e5e5;
@@ -461,7 +280,7 @@ input:-moz-placeholder { /* Firefox 18- */
 /* Responsive */
 @media screen and (max-width: 1199px) {
 	.form-v9-content {
-	    margin: 185px 20px;
+	    margin: 0px 0px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -482,3 +301,111 @@ input:-moz-placeholder { /* Firefox 18- */
 	}
 }
 
+/*==========================================*/
+
+input {
+  transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  padding-top: 10px;
+  -webkit-appearance: none; }
+  input:focus + .form-label, input:valid + .form-label {
+    top: 1px;
+    font-size: 11px;
+    color: #edb77d; }
+
+input, select {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  border: none;
+  font-family: Poppins;
+  color: #fff;
+  background: transparent;
+  border-bottom: 1px solid #999;
+  padding: 4px 0; }
+  input:focus, select:focus {
+    border-bottom: 1px solid #edb77d; }
+
+.form-group {
+  margin-bottom: 10px;
+  position: relative; }
+
+.form-input {
+  padding-top: 20px;
+  width : 45% }
+
+.form-label {
+  position: absolute;
+  transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -webkit-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  -ms-transition: 0.25s ease;
+  color: #bebebe;
+  left: 27px;
+  top: 38px; }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  margin-top : 20px;
+  color: white;
+  background-color: #ff0048;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/*.label-upload {
+  background-color: #ff0048;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#file-chosen{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+}*/
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+  z-index: -1;
+}
+
+.reg-button{
+    color: white;
+    background: #ff0048;
+    padding: 0px 0px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
