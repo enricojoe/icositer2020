@@ -98,12 +98,14 @@ h1{
     background-color: #FF0411;
     position: absolute;
     right: 0%;
+    top: -200px;
     filter: blur(100px);
 }
 .gambarbelakang{
     z-index: -1;
     width: 10%;
     height: 1%;
+    top: -200px;
     background-color: #FF0411;
     position: absolute;
     right: 0%;
