@@ -153,6 +153,7 @@
 }
 .cabangcompetition h2{
     margin-top: 50px;
+    text-align: left;
 }
 .cabangcompetition p{
     margin-top: 10px;
@@ -321,6 +322,7 @@
     .garisbawah-competition{
         margin: auto;
     }
+
 }
 @media(max-width:600px){
     .line{

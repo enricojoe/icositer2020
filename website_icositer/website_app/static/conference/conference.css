@@ -218,7 +218,7 @@
 
 /* media */
 
-@media(min-width:800px){
+@media(min-width:900px){
     .speakertime-list{
         display: flex;
     }
@@ -311,11 +311,17 @@
         display: none;
     }
 }
-@media(max-width:800px){
+@media(max-width:900px){
     .garisbawah{
         display: none;
     }
     .bulet{
         display: none;
+    }
+}
+@media(max-width:500px){
+    .judul p{
+        width: 80%;
+        height: 100%;
     }
 }
