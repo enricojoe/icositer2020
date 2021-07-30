@@ -30,6 +30,14 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+.judul h1{
+    color: white;
+    font-size: calc(35px + 6vw);
+}
+.judul h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(35px + 3vw);
+}
 
 .garisbawah{
     margin-top: 2%;
@@ -62,6 +70,7 @@ a:hover {
     transform: rotate(180deg);
 }
 .info h1{
+    font-size:calc(10px + 5vw);
     color: #12006B;
 }
 .info .garisbawah{
@@ -74,6 +83,21 @@ a:hover {
 .kontain{
     margin-left: 7%;
     margin-right: 7%;
+}
+
+@media(min-width:1920px) {
+    .judul h1{
+        color: white;
+        font-size: 140px;
+       
+    }
+    .judul h2{
+        font-size: 90px;
+
+    }
+    .info h1{
+        font-size:calc(110px);
+    }
 }
 
 /* media */ 
@@ -91,8 +115,8 @@ a:hover {
 }
 .bulet img{
     height: calc(200px + 37vw);
+    max-height: 850px;
 }
-
 .circuit2{
     z-index: 3;
     position: absolute;
@@ -101,6 +125,15 @@ a:hover {
 }
 .circuit2 img{
     height: calc(200px + 20vw);
+    max-height: 600px;
+}
+@media(min-width:1920px){
+    .bulet{
+        left: 250px;
+    }
+    .circuit2{
+        right: 300px;
+    }
 }
 .circuit3{
     z-index: 3;
@@ -207,6 +240,7 @@ a:hover {
 .committee-main>h1 {
     margin-top: 3%;
     width: 480px;
+    font-size: 4rem;
     text-align: justify;
 }
 
